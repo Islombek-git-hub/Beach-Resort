@@ -1,0 +1,20 @@
+[
+  {
+    "type": "Double Deluxe",
+    "img_src": "images/room-8.jpeg",
+    "link": "double-deluxe",
+    "Price": "$400"
+  },
+  {
+    "type": "Family Deluxe",
+    "img_src": "images/room-12.jpeg",
+    "link": "family-deluxe",
+    "Price": "$500"
+  },
+  {
+    "type": "Presidential",
+    "img_src": "images/room-11.jpeg",
+    "link": "presidential",
+    "Price": "$600"
+  }
+]

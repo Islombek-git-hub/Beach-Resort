@@ -1,0 +1,93 @@
+.search-rooms {
+  background-color: #cfcfcf;
+  width: 100vw;
+  padding: 2rem 0;
+  color: #333;
+}
+.search-rooms h1 {
+  font-size: 2rem;
+  position: relative;
+  padding-bottom: 1.5rem;
+  text-align: center;
+}
+.search-rooms h1::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100px;
+  height: 5px;
+  background-color: #af9a7d;
+}
+.filters {
+  display: flex;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+.filter {
+  width: 20%;
+  padding: 1rem;
+}
+
+.select select {
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 3px 5px;
+  background-color: #333;
+  color: #fff;
+}
+.select p {
+  margin-bottom: 0.3rem;
+}
+.roomPrice input {
+  cursor: grabbing;
+  width: 100%;
+}
+.roomPrice p {
+  margin-bottom: 0.3rem;
+}
+.roomSize p {
+  margin-bottom: 0.3rem;
+}
+.roomSize input {
+  width: 50%;
+  border: none;
+  outline: none;
+  padding: 3px 5px;
+  background-color: #333;
+  border: 2px solid #cfcfcf;
+  color: #fff;
+}
+.room-services {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.room-services label {
+  margin-left: 3px;
+  font-size: 0.8rem;
+}
+
+@media (max-width: 1220px) {
+  .filter {
+    width: 25%;
+  }
+}
+@media (max-width: 1000px) {
+  .filter {
+    width: calc(100% / 3);
+  }
+}
+
+@media (max-width: 750px) {
+  .filter {
+    width: 50%;
+  }
+}
+@media (max-width: 500px) {
+  .filter {
+    width: 100%;
+  }
+}

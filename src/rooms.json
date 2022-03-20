@@ -1,0 +1,162 @@
+[
+  {
+    "type": "Single Economy",
+    "img_src": "images/room-1.jpeg",
+    "Price": 100,
+    "Size": 200,
+    "Max_Capacity": 1,
+    "Pets": false,
+    "Breakfast": false,
+    "link": "single-economy"
+  },
+  {
+    "type": "Single Basic",
+    "img_src": "images/room-2.jpeg",
+    "Price": 150,
+    "Size": 250,
+    "Max_Capacity": 1,
+    "Pets": false,
+    "Breakfast": false,
+    "link": "single-basic"
+  },
+  {
+    "type": "Single Standard",
+    "img_src": "images/room-3.jpeg",
+    "Price": 250,
+    "Size": 300,
+    "Max_Capacity": 1,
+    "Pets": true,
+    "Breakfast": false,
+    "link": "single-standard"
+  },
+  {
+    "type": "Single Deluxe",
+    "img_src": "images/room-4.jpeg",
+    "Price": 300,
+    "Size": 400,
+    "Max_Capacity": 1,
+    "Pets": true,
+    "Breakfast": true,
+    "link": "single-deluxe"
+  },
+  {
+    "type": "Double Economy",
+    "img_src": " images/room-5.jpeg",
+    "Price": 200,
+    "Size": 300,
+    "Max_Capacity": 2,
+    "Pets": false,
+    "Breakfast": false,
+    "link": "double-economy"
+  },
+  {
+    "type": "Double Basic",
+    "img_src": "images/room-6.jpeg",
+    "Price": 250,
+    "Size": 350,
+    "Max_Capacity": 2,
+    "Pets": false,
+    "Breakfast": false,
+    "link": "double-basic"
+  },
+  {
+    "type": "Double Standard",
+    "img_src": "images/room-7.jpeg",
+    "Price": 300,
+    "Size": 400,
+    "Max_Capacity": 2,
+    "Pets": true,
+    "Breakfast": false,
+    "link": "Ddouble-standard"
+  },
+  {
+    "type": "Double Deluxe",
+    "img_src": "images/room-8.jpeg",
+    "Price": 400,
+    "Size": 500,
+    "Max_Capacity": 2,
+    "Pets": true,
+    "Breakfast": true,
+    "link": "double-deluxe"
+  },
+  {
+    "type": "Family Economy",
+    "img_src": "images/room-9.jpeg",
+    "Price": 300,
+    "Size": 500,
+    "Max_Capacity": 3,
+    "Pets": false,
+    "Breakfast": false,
+    "link": "family-economy"
+  },
+  {
+    "type": "Family Basic",
+    "img_src": "images/room-10.jpeg",
+    "Price": 350,
+    "Size": 550,
+    "Max_Capacity": 4,
+    "Pets": false,
+    "Breakfast": false,
+    "link": "family-basic"
+  },
+  {
+    "type": "Family Standard",
+    "img_src": "images/room-11.jpeg",
+    "Price": 400,
+    "Size": 600,
+    "Max_Capacity": 5,
+    "Pets": true,
+    "Breakfast": false,
+    "link": "family-standard"
+  },
+  {
+    "type": "Family Deluxe",
+    "img_src": "images/room-12.jpeg",
+    "Price": 500,
+    "Size": 700,
+    "Max_Capacity": 6,
+    "Pets": true,
+    "Breakfast": true,
+    "link": "family-deluxe"
+  },
+  {
+    "type": "Presidential",
+    "img_src": "images/room-11.jpeg",
+    "Price": 600,
+    "Size": 1000,
+    "Max_Capacity": 10,
+    "Pets": true,
+    "Breakfast": true,
+    "link": "presidential"
+  },
+  {
+    "type": "Triple Economy",
+    "img_src": "images/details-3.jpeg",
+    "Price": 500,
+    "Size": 1200,
+    "Max_Capacity": 3,
+    "Pets": false,
+    "Breakfast": false,
+    "link": "triple-economy"
+  },
+  {
+    "type": "Triple Basic",
+    "img_src": "images/details-1.jpeg",
+    "Price": 600,
+    "Size": 1500,
+    "Max_Capacity": 3,
+    "Pets": false,
+    "Breakfast": true,
+    "link": "triple-basic"
+  },
+  {
+    "type": "Triple Standart",
+    "img_src": "images/details-2.jpeg",
+    "Price": 350,
+    "Size": 1600,
+    "Max_Capacity": 3,
+    "Pets": true,
+    "Breakfast": true,
+    "link": "triple-standart"
+  }
+]

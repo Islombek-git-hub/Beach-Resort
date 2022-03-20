@@ -1,0 +1,49 @@
+header {
+  height: 3rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  z-index: 1111111111;
+  left: 0;
+}
+header::before {
+  content: "";
+  height: 3rem;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  background-color: #333c;
+  z-index: -1;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  color: #fff;
+}
+.logo {
+  border: 2px solid;
+  padding: 0.2rem 1rem;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px #aaa;
+}
+.logo span {
+  color: #af9a7d;
+}
+nav ul {
+  display: flex;
+  margin-left: 1rem;
+}
+nav ul li {
+  margin-left: 1rem;
+  font-size: 0.8rem;
+}
+nav ul li a {
+  color: #fff;
+}
+nav ul li a.active {
+  color: #af9a7d;
+}
+.menu-btn {
+  display: none;
+}
