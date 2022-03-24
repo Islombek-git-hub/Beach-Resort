@@ -6,9 +6,10 @@ import { useSelector } from "react-redux";
 
 const Room = () => {
   const rooms = useSelector((state) => state.roomData);
+  // console.log(rooms.rooms);
   const { room } = useParams();
   let i;
-  rooms.map((data, index) => {
+  rooms.rooms.map((data, index) => {
     if (room === data.link) {
       i = index;
     }
@@ -16,9 +17,9 @@ const Room = () => {
   return (
     <div>
       <div className="room-head">
-        <img src={rooms[i].img_src} alt={rooms[i].type} />
+        <img src={rooms.rooms[i].img_src} alt={rooms.rooms[i].type} />
         <div className="room-head-box">
-          <h1>{rooms[i].type} Room</h1>
+          <h1>{rooms.rooms[i].type} Room</h1>
           <Link to="/rooms" className="hover_link">
             back to rooms
           </Link>
@@ -45,11 +46,15 @@ const Room = () => {
           <div className="info">
             <h2>Info</h2>
             <ul>
-              <li>Price: {rooms[i].Price}</li>
-              <li>Size: {rooms[i].Size} SQFT</li>
-              <li>Max Capacity: {rooms[i].Max_Capacity}</li>
-              <li>{rooms[i].Pets ? "Pets Allowed" : "No Pets Allowed"}</li>
-              <li>{rooms[i].Breakfast ? "Free Breakfast Included" : ""}</li>
+              <li>Price: {rooms.rooms[i].Price}</li>
+              <li>Size: {rooms.rooms[i].Size} SQFT</li>
+              <li>Max Capacity: {rooms.rooms[i].Max_Capacity}</li>
+              <li>
+                {rooms.rooms[i].Pets ? "Pets Allowed" : "No Pets Allowed"}
+              </li>
+              <li>
+                {rooms.rooms[i].Breakfast ? "Free Breakfast Included" : ""}
+              </li>
             </ul>
           </div>
 

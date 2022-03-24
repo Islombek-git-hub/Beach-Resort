@@ -1,6 +1,7 @@
 [
   {
     "type": "Single Economy",
+    "room_type": "single",
     "img_src": "images/room-1.jpeg",
     "Price": 100,
     "Size": 200,
@@ -11,6 +12,7 @@
   },
   {
     "type": "Single Basic",
+    "room_type": "single",
     "img_src": "images/room-2.jpeg",
     "Price": 150,
     "Size": 250,
@@ -21,6 +23,7 @@
   },
   {
     "type": "Single Standard",
+    "room_type": "single",
     "img_src": "images/room-3.jpeg",
     "Price": 250,
     "Size": 300,
@@ -31,6 +34,7 @@
   },
   {
     "type": "Single Deluxe",
+    "room_type": "single",
     "img_src": "images/room-4.jpeg",
     "Price": 300,
     "Size": 400,
@@ -41,6 +45,7 @@
   },
   {
     "type": "Double Economy",
+    "room_type": "double",
     "img_src": " images/room-5.jpeg",
     "Price": 200,
     "Size": 300,
@@ -51,6 +56,7 @@
   },
   {
     "type": "Double Basic",
+    "room_type": "double",
     "img_src": "images/room-6.jpeg",
     "Price": 250,
     "Size": 350,
@@ -61,16 +67,18 @@
   },
   {
     "type": "Double Standard",
+    "room_type": "double",
     "img_src": "images/room-7.jpeg",
     "Price": 300,
     "Size": 400,
     "Max_Capacity": 2,
     "Pets": true,
     "Breakfast": false,
-    "link": "Ddouble-standard"
+    "link": "double-standard"
   },
   {
     "type": "Double Deluxe",
+    "room_type": "double",
     "img_src": "images/room-8.jpeg",
     "Price": 400,
     "Size": 500,
@@ -81,6 +89,7 @@
   },
   {
     "type": "Family Economy",
+    "room_type": "family",
     "img_src": "images/room-9.jpeg",
     "Price": 300,
     "Size": 500,
@@ -91,6 +100,7 @@
   },
   {
     "type": "Family Basic",
+    "room_type": "family",
     "img_src": "images/room-10.jpeg",
     "Price": 350,
     "Size": 550,
@@ -101,6 +111,7 @@
   },
   {
     "type": "Family Standard",
+    "room_type": "family",
     "img_src": "images/room-11.jpeg",
     "Price": 400,
     "Size": 600,
@@ -111,6 +122,7 @@
   },
   {
     "type": "Family Deluxe",
+    "room_type": "family",
     "img_src": "images/room-12.jpeg",
     "Price": 500,
     "Size": 700,
@@ -121,6 +133,7 @@
   },
   {
     "type": "Presidential",
+    "room_type": "presidential",
     "img_src": "images/room-11.jpeg",
     "Price": 600,
     "Size": 1000,
@@ -131,6 +144,7 @@
   },
   {
     "type": "Triple Economy",
+    "room_type": "triple",
     "img_src": "images/details-3.jpeg",
     "Price": 500,
     "Size": 1200,
@@ -141,6 +155,7 @@
   },
   {
     "type": "Triple Basic",
+    "room_type": "triple",
     "img_src": "images/details-1.jpeg",
     "Price": 600,
     "Size": 1500,
@@ -151,6 +166,7 @@
   },
   {
     "type": "Triple Standart",
+    "room_type": "triple",
     "img_src": "images/details-2.jpeg",
     "Price": 350,
     "Size": 1600,

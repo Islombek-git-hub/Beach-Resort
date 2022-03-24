@@ -1,1 +1,1 @@
-export const filterFun = () => ({ type: "FILTER" });
+export const filterFun = (f) => ({ type: "FILTER", payload: f });

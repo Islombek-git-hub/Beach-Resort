@@ -8,12 +8,22 @@ const RoomsSearch = () => {
   const [price, setPrice] = useState(600);
   const [roomSize1, setRoomSize1] = useState(0);
   const [roomSize2, setRoomSize2] = useState(1600);
-  const [breakfast, setBreakfast] = useState();
-  const [pets, setPets] = useState();
+  const [breakfast, setBreakfast] = useState(false);
+  const [pets, setPets] = useState(false);
   const dispatch = useDispatch();
 
   useEffect(() => {
-    dispatch(filterFun());
+    dispatch(
+      filterFun({
+        roomType,
+        guests,
+        price,
+        roomSize1,
+        roomSize2,
+        breakfast,
+        pets,
+      })
+    );
   }, [roomType, guests, price, roomSize1, roomSize2, breakfast, pets]);
 
   return (
@@ -49,13 +59,13 @@ const RoomsSearch = () => {
               }}
             >
               <option value="">-</option>
-              <option value="1">1</option>
-              <option value="2">2</option>
-              <option value="3">3</option>
-              <option value="4">4</option>
-              <option value="5">5</option>
-              <option value="6">6</option>
-              <option value="10">10</option>
+              <option value={1}>1</option>
+              <option value={2}>2</option>
+              <option value={3}>3</option>
+              <option value={4}>4</option>
+              <option value={5}>5</option>
+              <option value={6}>6</option>
+              <option value={10}>10</option>
             </select>
           </div>
 
@@ -100,7 +110,7 @@ const RoomsSearch = () => {
                 id="breakfast"
                 value={breakfast}
                 onChange={(e) => {
-                  setBreakfast(e.target.value);
+                  setBreakfast(!breakfast);
                 }}
               />
               <label htmlFor="breakfast" className="noselect">
@@ -114,7 +124,7 @@ const RoomsSearch = () => {
                 id="pets"
                 value={pets}
                 onChange={(e) => {
-                  setPets(e.target.value);
+                  setPets(!pets);
                 }}
               />
               <label htmlFor="pets" className="noselect">

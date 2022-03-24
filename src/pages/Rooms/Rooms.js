@@ -5,7 +5,7 @@ import Featuredroombox from "../../components/FeaturedRooms/FeaturedRoomBox";
 import { useSelector } from "react-redux";
 import "./Rooms.css";
 const Rooms = () => {
-  const rooms = useSelector((state) => state.roomData);
+  const rooms = useSelector((state) => state.roomData.rooms);
   return (
     <div>
       <RoomsHead />
