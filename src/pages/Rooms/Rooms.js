@@ -11,9 +11,13 @@ const Rooms = () => {
       <RoomsHead />
       <RoomsSearch />
       <div className="rooms container">
-        {rooms.map((room, i) => {
-          return <Featuredroombox key={i + 100} room={room} />;
-        })}
+        {rooms.length > 0 ? (
+          rooms.map((room, i) => {
+            return <Featuredroombox key={i + 100} room={room} />;
+          })
+        ) : (
+          <h1 className="no-room">no room</h1>
+        )}
       </div>
     </div>
   );

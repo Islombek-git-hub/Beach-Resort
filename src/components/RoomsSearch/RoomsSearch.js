@@ -3,7 +3,7 @@ import { useDispatch } from "react-redux";
 import { filterFun } from "../../redux/actions/action";
 import "./RoomsSearch.css";
 const RoomsSearch = () => {
-  const [roomType, setRoomType] = useState("");
+  const [roomType, setRoomType] = useState("all");
   const [guests, setGuests] = useState("");
   const [price, setPrice] = useState(600);
   const [roomSize1, setRoomSize1] = useState(0);
@@ -58,14 +58,14 @@ const RoomsSearch = () => {
                 setGuests(e.target.value);
               }}
             >
-              <option value="">-</option>
-              <option value={1}>1</option>
-              <option value={2}>2</option>
-              <option value={3}>3</option>
-              <option value={4}>4</option>
-              <option value={5}>5</option>
-              <option value={6}>6</option>
-              <option value={10}>10</option>
+              <option value={"all"}>-</option>
+              <option value={"1"}>1</option>
+              <option value={"2"}>2</option>
+              <option value={"3"}>3</option>
+              <option value={"4"}>4</option>
+              <option value={"5"}>5</option>
+              <option value={"6"}>6</option>
+              <option value={"10"}>10</option>
             </select>
           </div>
 

@@ -5,7 +5,7 @@
     "img_src": "images/room-1.jpeg",
     "Price": 100,
     "Size": 200,
-    "Max_Capacity": 1,
+    "Max_Capacity": "1",
     "Pets": false,
     "Breakfast": false,
     "link": "single-economy"
@@ -16,7 +16,7 @@
     "img_src": "images/room-2.jpeg",
     "Price": 150,
     "Size": 250,
-    "Max_Capacity": 1,
+    "Max_Capacity": "1",
     "Pets": false,
     "Breakfast": false,
     "link": "single-basic"
@@ -27,7 +27,7 @@
     "img_src": "images/room-3.jpeg",
     "Price": 250,
     "Size": 300,
-    "Max_Capacity": 1,
+    "Max_Capacity": "1",
     "Pets": true,
     "Breakfast": false,
     "link": "single-standard"
@@ -38,7 +38,7 @@
     "img_src": "images/room-4.jpeg",
     "Price": 300,
     "Size": 400,
-    "Max_Capacity": 1,
+    "Max_Capacity": "1",
     "Pets": true,
     "Breakfast": true,
     "link": "single-deluxe"
@@ -49,7 +49,7 @@
     "img_src": " images/room-5.jpeg",
     "Price": 200,
     "Size": 300,
-    "Max_Capacity": 2,
+    "Max_Capacity": "2",
     "Pets": false,
     "Breakfast": false,
     "link": "double-economy"
@@ -60,7 +60,7 @@
     "img_src": "images/room-6.jpeg",
     "Price": 250,
     "Size": 350,
-    "Max_Capacity": 2,
+    "Max_Capacity": "2",
     "Pets": false,
     "Breakfast": false,
     "link": "double-basic"
@@ -71,7 +71,7 @@
     "img_src": "images/room-7.jpeg",
     "Price": 300,
     "Size": 400,
-    "Max_Capacity": 2,
+    "Max_Capacity": "2",
     "Pets": true,
     "Breakfast": false,
     "link": "double-standard"
@@ -82,7 +82,7 @@
     "img_src": "images/room-8.jpeg",
     "Price": 400,
     "Size": 500,
-    "Max_Capacity": 2,
+    "Max_Capacity": "2",
     "Pets": true,
     "Breakfast": true,
     "link": "double-deluxe"
@@ -93,7 +93,7 @@
     "img_src": "images/room-9.jpeg",
     "Price": 300,
     "Size": 500,
-    "Max_Capacity": 3,
+    "Max_Capacity": "3",
     "Pets": false,
     "Breakfast": false,
     "link": "family-economy"
@@ -104,7 +104,7 @@
     "img_src": "images/room-10.jpeg",
     "Price": 350,
     "Size": 550,
-    "Max_Capacity": 4,
+    "Max_Capacity": "4",
     "Pets": false,
     "Breakfast": false,
     "link": "family-basic"
@@ -115,7 +115,7 @@
     "img_src": "images/room-11.jpeg",
     "Price": 400,
     "Size": 600,
-    "Max_Capacity": 5,
+    "Max_Capacity": "5",
     "Pets": true,
     "Breakfast": false,
     "link": "family-standard"
@@ -126,7 +126,7 @@
     "img_src": "images/room-12.jpeg",
     "Price": 500,
     "Size": 700,
-    "Max_Capacity": 6,
+    "Max_Capacity": "6",
     "Pets": true,
     "Breakfast": true,
     "link": "family-deluxe"
@@ -137,7 +137,7 @@
     "img_src": "images/room-11.jpeg",
     "Price": 600,
     "Size": 1000,
-    "Max_Capacity": 10,
+    "Max_Capacity": "10",
     "Pets": true,
     "Breakfast": true,
     "link": "presidential"
@@ -148,7 +148,7 @@
     "img_src": "images/details-3.jpeg",
     "Price": 500,
     "Size": 1200,
-    "Max_Capacity": 3,
+    "Max_Capacity": "3",
     "Pets": false,
     "Breakfast": false,
     "link": "triple-economy"
@@ -159,7 +159,7 @@
     "img_src": "images/details-1.jpeg",
     "Price": 600,
     "Size": 1500,
-    "Max_Capacity": 3,
+    "Max_Capacity": "3",
     "Pets": false,
     "Breakfast": true,
     "link": "triple-basic"
@@ -170,7 +170,7 @@
     "img_src": "images/details-2.jpeg",
     "Price": 350,
     "Size": 1600,
-    "Max_Capacity": 3,
+    "Max_Capacity": "3",
     "Pets": true,
     "Breakfast": true,
     "link": "triple-standart"
