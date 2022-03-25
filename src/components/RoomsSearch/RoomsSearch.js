@@ -41,7 +41,7 @@ const RoomsSearch = () => {
                 setRoomType(e.target.value);
               }}
             >
-              <option value="">all</option>
+              <option value="all">all</option>
               <option value="single">single</option>
               <option value="double">double</option>
               <option value="family">family</option>
@@ -58,7 +58,7 @@ const RoomsSearch = () => {
                 setGuests(e.target.value);
               }}
             >
-              <option value={"all"}>-</option>
+              <option value={""}>-</option>
               <option value={"1"}>1</option>
               <option value={"2"}>2</option>
               <option value={"3"}>3</option>

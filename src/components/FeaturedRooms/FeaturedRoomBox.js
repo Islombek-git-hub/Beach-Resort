@@ -14,7 +14,7 @@ const Featuredroombox = ({ room }) => {
       }}
     >
       <p className={`${!hover ? "" : "d-none"}`}>
-        ${room.Price} <br /> <span>per night</span>
+        {room.Price} <br /> <span>per night</span>
       </p>
       <img src={room.img_src} alt="room" />
       <div className={`hover-box ${hover ? "" : "d-none"}`}>
